@@ -1,3 +1,10 @@
-/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/exchange_value.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/reversevalue.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/timerange.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/try.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir
 /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/MOOC_C.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/heightconvert.dir
+/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/plus.dir
