@@ -47,12 +47,21 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/sum.dir/DependInfo.cmake"
+  "CMakeFiles/get_number.dir/DependInfo.cmake"
+  "CMakeFiles/reverse.dir/DependInfo.cmake"
+  "CMakeFiles/switch.dir/DependInfo.cmake"
+  "CMakeFiles/salary.dir/DependInfo.cmake"
+  "CMakeFiles/get_max.dir/DependInfo.cmake"
+  "CMakeFiles/time_interval.dir/DependInfo.cmake"
   "CMakeFiles/exchange_value.dir/DependInfo.cmake"
-  "CMakeFiles/reversevalue.dir/DependInfo.cmake"
-  "CMakeFiles/timerange.dir/DependInfo.cmake"
-  "CMakeFiles/try.dir/DependInfo.cmake"
-  "CMakeFiles/change.dir/DependInfo.cmake"
   "CMakeFiles/MOOC_C.dir/DependInfo.cmake"
+  "CMakeFiles/try.dir/DependInfo.cmake"
+  "CMakeFiles/reversevalue.dir/DependInfo.cmake"
+  "CMakeFiles/dynamic.dir/DependInfo.cmake"
+  "CMakeFiles/timerange.dir/DependInfo.cmake"
+  "CMakeFiles/guess_number.dir/DependInfo.cmake"
+  "CMakeFiles/change.dir/DependInfo.cmake"
   "CMakeFiles/heightconvert.dir/DependInfo.cmake"
   "CMakeFiles/plus.dir/DependInfo.cmake"
   )

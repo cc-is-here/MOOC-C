@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

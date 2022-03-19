@@ -2,14 +2,23 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MOOC_C" targetName="heightconvert" />
       <config projectName="MOOC_C" targetName="reversevalue" />
       <config projectName="MOOC_C" targetName="change" />
       <config projectName="MOOC_C" targetName="try" />
-      <config projectName="MOOC_C" targetName="exchange_value" />
+      <config projectName="MOOC_C" targetName="dynamic" />
       <config projectName="MOOC_C" targetName="MOOC_C" />
-      <config projectName="MOOC_C" targetName="plus" />
       <config projectName="MOOC_C" targetName="timerange" />
+      <config projectName="MOOC_C" targetName="heightconvert" />
+      <config projectName="MOOC_C" targetName="get_max" />
+      <config projectName="MOOC_C" targetName="sum" />
+      <config projectName="MOOC_C" targetName="switch" />
+      <config projectName="MOOC_C" targetName="guess_number" />
+      <config projectName="MOOC_C" targetName="exchange_value" />
+      <config projectName="MOOC_C" targetName="plus" />
+      <config projectName="MOOC_C" targetName="get_number" />
+      <config projectName="MOOC_C" targetName="salary" />
+      <config projectName="MOOC_C" targetName="reverse" />
+      <config projectName="MOOC_C" targetName="time_interval" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -19,30 +28,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de94075c-c121-4726-ba93-bb56823ae8b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classwork/change.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MOOC_C.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classwork/change.c" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/change.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classwork/try.c" beforeDir="false" afterPath="$PROJECT_DIR$/classwork/try.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/classwork/change.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/classwork/change.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/change.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/exchange_value.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/exchange_value.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/heightconvert.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/heightconvert.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plus.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/reversevalue.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/reversevalue.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/timerange.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/timerange.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/try.dir/classwork/try.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/try.dir/classwork/try.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/try.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/try.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MOOC_C.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MOOC_C.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/try" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/try" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/reversevalue.c" beforeDir="false" afterPath="$PROJECT_DIR$/homework/reversevalue.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +86,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager" selected="CMake Application.reversevalue">
+  <component name="RunManager" selected="CMake Application.try">
     <configuration name="MOOC_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="MOOC_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="MOOC_C">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -86,7 +100,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dynamic" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="dynamic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="dynamic">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="exchange_value" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="exchange_value" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="exchange_value">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get_max" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="get_max" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="get_max">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get_number" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="get_number" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="get_number">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="guess_number" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="guess_number" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="guess_number">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -101,7 +135,32 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reverse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="reverse" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="reverse">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="reversevalue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="reversevalue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="reversevalue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="salary" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="salary" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="salary">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="sum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="switch" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="switch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="switch">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="time_interval" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MOOC_C" TARGET_NAME="time_interval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MOOC_C" RUN_TARGET_NAME="time_interval">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -118,11 +177,20 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.change" />
+      <item itemvalue="CMake Application.dynamic" />
       <item itemvalue="CMake Application.exchange_value" />
+      <item itemvalue="CMake Application.get_max" />
+      <item itemvalue="CMake Application.get_number" />
+      <item itemvalue="CMake Application.guess_number" />
       <item itemvalue="CMake Application.heightconvert" />
       <item itemvalue="CMake Application.MOOC_C" />
       <item itemvalue="CMake Application.plus" />
+      <item itemvalue="CMake Application.reverse" />
       <item itemvalue="CMake Application.reversevalue" />
+      <item itemvalue="CMake Application.salary" />
+      <item itemvalue="CMake Application.sum" />
+      <item itemvalue="CMake Application.switch" />
+      <item itemvalue="CMake Application.time_interval" />
       <item itemvalue="CMake Application.timerange" />
       <item itemvalue="CMake Application.try" />
     </list>
@@ -138,7 +206,8 @@
       <option name="presentableId" value="Default" />
       <updated>1646831862817</updated>
       <workItem from="1646831866854" duration="4732000" />
-      <workItem from="1646839519346" duration="761000" />
+      <workItem from="1646839519346" duration="2379000" />
+      <workItem from="1647067195647" duration="8578000" />
     </task>
     <servers />
   </component>
@@ -150,46 +219,54 @@
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
     <state x="2138" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646833083444" />
-    <state x="1987" y="-65" key="CommitChangelistDialog2" timestamp="1646838801626">
+    <state x="1987" y="-65" key="CommitChangelistDialog2" timestamp="1647067205820">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state x="1987" y="-65" key="CommitChangelistDialog2/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646838801626" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1646841045684">
+    <state x="1987" y="-65" key="CommitChangelistDialog2/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067205820" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1647442522976">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646841045684" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522976" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1646832390580" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1646841045683">
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190097" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1647442522974">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646841045683" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522974" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1646832390579" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1646841045682">
+    <state width="1878" height="376" key="GridCell.Tab.0.center/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190096" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1647442522973">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646841045682" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522973" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1646832390579" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1646841045683">
+    <state width="1878" height="376" key="GridCell.Tab.0.left/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190095" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1647442522974">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646841045683" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522974" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1440.877/1440.-157.1920.1057@1440.-157.1920.1057" timestamp="1646832390580" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1646840991937">
+    <state width="1878" height="376" key="GridCell.Tab.0.right/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190096" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1647442522978">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646840991937" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1646840991936">
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522978" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190099" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1647442522977">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646840991936" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1646840991935">
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522977" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190098" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1647442522977">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646840991935" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1646840991936">
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522977" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190097" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1647442522978">
       <screen x="1440" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1646840991936" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1440.900/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647442522978" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.23.1440.877/1440.-180.1920.1080@1440.-180.1920.1080" timestamp="1647067190098" />
     <state x="1909" y="-1" key="SettingsEditor" timestamp="1646838910153">
       <screen x="1440" y="-157" width="1920" height="1057" />
     </state>
@@ -212,9 +289,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/classwork/exchange_value.c</url>
-          <line>9</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/classwork/time_interval.c</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/classwork/salary.c</url>
+          <line>15</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

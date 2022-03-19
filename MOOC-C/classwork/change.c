@@ -5,6 +5,11 @@
 #include <stdio.h>
 
 int main() {
+    //init
+    /*
+     * 注释
+     *
+     */
     int amount = 100;
     int price = 0;
     printf("pls enter price: ");
@@ -13,7 +18,12 @@ int main() {
     printf("pls enter amount: ");
     scanf("%d", &amount);
     int change = amount - price;
-    printf("give you: %d", change);
+    if (change > 0 ){
+        printf("give you: %d", change);
+    } else{
+        printf("not enough, pls give more!");
+    }
+
     return 0;
 }
 

@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/exchange_value.c
+/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
+/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/reverse.c
+stdio.h
+-
+
+/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/sum.c
 stdio.h
 -
 

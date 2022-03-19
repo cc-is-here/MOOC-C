@@ -17,11 +17,281 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="sum">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/sum" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sum/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/sum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_number">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/get_number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_number"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_number/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/get_number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_number/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/reverse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/reverse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="switch">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/switch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 switch"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="switch/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/switch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 switch/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="salary">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/salary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 salary"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="salary/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/salary" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 salary/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_max">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/get_max" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_max"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_max/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/get_max" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_max/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time_interval">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/time_interval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 time_interval"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time_interval/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/time_interval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 time_interval/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -67,8 +337,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="reversevalue">
-				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/reversevalue" prefix_auto="0" extension_auto="0"/>
+			<Target title="MOOC_C">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/MOOC_C" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -81,14 +351,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 reversevalue"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 MOOC_C"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="reversevalue/fast">
-				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/reversevalue" prefix_auto="0" extension_auto="0"/>
+			<Target title="MOOC_C/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/MOOC_C" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -101,57 +371,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 reversevalue/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="timerange">
-				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/timerange" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 timerange"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="timerange/fast">
-				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/timerange" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 timerange/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 MOOC_C/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -197,6 +417,176 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="reversevalue">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/reversevalue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 reversevalue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reversevalue/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/reversevalue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 reversevalue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/dynamic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/dynamic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 dynamic/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timerange">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/timerange" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 timerange"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timerange/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/timerange" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 timerange/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guess_number">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/guess_number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 guess_number"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="guess_number/fast">
+				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/guess_number" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 guess_number/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="change">
 				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/change" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
@@ -237,41 +627,11 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="MOOC_C">
-				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/MOOC_C" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 MOOC_C"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MOOC_C/fast">
-				<Option output="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/MOOC_C" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 MOOC_C/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -361,27 +721,58 @@
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/change.c">
 			<Option target="change"/>
 		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/dynamic.c">
+			<Option target="dynamic"/>
+			<Option target="change"/>
+		</Unit>
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/exchange_value.c">
 			<Option target="exchange_value"/>
+		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_max.c">
+			<Option target="get_max"/>
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_number.c">
+			<Option target="get_number"/>
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c">
+			<Option target="guess_number"/>
 			<Option target="change"/>
 		</Unit>
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/heightconvert.c">
-			<Option target="change"/>
 			<Option target="heightconvert"/>
 		</Unit>
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/plus.c">
 			<Option target="plus"/>
 		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/reverse.c">
+			<Option target="reverse"/>
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/salary.c">
+			<Option target="salary"/>
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/sum.c">
+			<Option target="sum"/>
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/switch.c">
+			<Option target="switch"/>
+			<Option target="change"/>
+		</Unit>
+		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/time_interval.c">
+			<Option target="time_interval"/>
+		</Unit>
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/timerange.c">
 			<Option target="timerange"/>
-			<Option target="change"/>
 		</Unit>
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/try.c">
 			<Option target="try"/>
 		</Unit>
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/homework/reversevalue.c">
 			<Option target="reversevalue"/>
-			<Option target="change"/>
 		</Unit>
 		<Unit filename="/Users/amarihikohatsu/CLionProjects/MOOC-C/main.c">
 			<Option target="MOOC_C"/>

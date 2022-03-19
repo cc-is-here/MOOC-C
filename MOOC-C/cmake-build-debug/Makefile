@@ -111,6 +111,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sum
+
+# Build rule for target.
+sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sum
+.PHONY : sum
+
+# fast build rule for target.
+sum/fast:
+	$(MAKE) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/build
+.PHONY : sum/fast
+
+#=============================================================================
+# Target rules for targets named get_number
+
+# Build rule for target.
+get_number: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 get_number
+.PHONY : get_number
+
+# fast build rule for target.
+get_number/fast:
+	$(MAKE) -f CMakeFiles/get_number.dir/build.make CMakeFiles/get_number.dir/build
+.PHONY : get_number/fast
+
+#=============================================================================
+# Target rules for targets named reverse
+
+# Build rule for target.
+reverse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reverse
+.PHONY : reverse
+
+# fast build rule for target.
+reverse/fast:
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/build
+.PHONY : reverse/fast
+
+#=============================================================================
+# Target rules for targets named switch
+
+# Build rule for target.
+switch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 switch
+.PHONY : switch
+
+# fast build rule for target.
+switch/fast:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
+.PHONY : switch/fast
+
+#=============================================================================
+# Target rules for targets named salary
+
+# Build rule for target.
+salary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 salary
+.PHONY : salary
+
+# fast build rule for target.
+salary/fast:
+	$(MAKE) -f CMakeFiles/salary.dir/build.make CMakeFiles/salary.dir/build
+.PHONY : salary/fast
+
+#=============================================================================
+# Target rules for targets named get_max
+
+# Build rule for target.
+get_max: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 get_max
+.PHONY : get_max
+
+# fast build rule for target.
+get_max/fast:
+	$(MAKE) -f CMakeFiles/get_max.dir/build.make CMakeFiles/get_max.dir/build
+.PHONY : get_max/fast
+
+#=============================================================================
+# Target rules for targets named time_interval
+
+# Build rule for target.
+time_interval: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 time_interval
+.PHONY : time_interval
+
+# fast build rule for target.
+time_interval/fast:
+	$(MAKE) -f CMakeFiles/time_interval.dir/build.make CMakeFiles/time_interval.dir/build
+.PHONY : time_interval/fast
+
+#=============================================================================
 # Target rules for targets named exchange_value
 
 # Build rule for target.
@@ -124,30 +215,17 @@ exchange_value/fast:
 .PHONY : exchange_value/fast
 
 #=============================================================================
-# Target rules for targets named reversevalue
+# Target rules for targets named MOOC_C
 
 # Build rule for target.
-reversevalue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reversevalue
-.PHONY : reversevalue
+MOOC_C: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MOOC_C
+.PHONY : MOOC_C
 
 # fast build rule for target.
-reversevalue/fast:
-	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/build
-.PHONY : reversevalue/fast
-
-#=============================================================================
-# Target rules for targets named timerange
-
-# Build rule for target.
-timerange: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 timerange
-.PHONY : timerange
-
-# fast build rule for target.
-timerange/fast:
-	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/build
-.PHONY : timerange/fast
+MOOC_C/fast:
+	$(MAKE) -f CMakeFiles/MOOC_C.dir/build.make CMakeFiles/MOOC_C.dir/build
+.PHONY : MOOC_C/fast
 
 #=============================================================================
 # Target rules for targets named try
@@ -163,6 +241,58 @@ try/fast:
 .PHONY : try/fast
 
 #=============================================================================
+# Target rules for targets named reversevalue
+
+# Build rule for target.
+reversevalue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reversevalue
+.PHONY : reversevalue
+
+# fast build rule for target.
+reversevalue/fast:
+	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/build
+.PHONY : reversevalue/fast
+
+#=============================================================================
+# Target rules for targets named dynamic
+
+# Build rule for target.
+dynamic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic
+.PHONY : dynamic
+
+# fast build rule for target.
+dynamic/fast:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/build
+.PHONY : dynamic/fast
+
+#=============================================================================
+# Target rules for targets named timerange
+
+# Build rule for target.
+timerange: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timerange
+.PHONY : timerange
+
+# fast build rule for target.
+timerange/fast:
+	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/build
+.PHONY : timerange/fast
+
+#=============================================================================
+# Target rules for targets named guess_number
+
+# Build rule for target.
+guess_number: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 guess_number
+.PHONY : guess_number
+
+# fast build rule for target.
+guess_number/fast:
+	$(MAKE) -f CMakeFiles/guess_number.dir/build.make CMakeFiles/guess_number.dir/build
+.PHONY : guess_number/fast
+
+#=============================================================================
 # Target rules for targets named change
 
 # Build rule for target.
@@ -174,19 +304,6 @@ change: cmake_check_build_system
 change/fast:
 	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/build
 .PHONY : change/fast
-
-#=============================================================================
-# Target rules for targets named MOOC_C
-
-# Build rule for target.
-MOOC_C: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MOOC_C
-.PHONY : MOOC_C
-
-# fast build rule for target.
-MOOC_C/fast:
-	$(MAKE) -f CMakeFiles/MOOC_C.dir/build.make CMakeFiles/MOOC_C.dir/build
-.PHONY : MOOC_C/fast
 
 #=============================================================================
 # Target rules for targets named heightconvert
@@ -241,6 +358,36 @@ classwork/change.c.s:
 	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/change.c.s
 .PHONY : classwork/change.c.s
 
+classwork/dynamic.o: classwork/dynamic.c.o
+
+.PHONY : classwork/dynamic.o
+
+# target to build an object file
+classwork/dynamic.c.o:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/classwork/dynamic.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/dynamic.c.o
+.PHONY : classwork/dynamic.c.o
+
+classwork/dynamic.i: classwork/dynamic.c.i
+
+.PHONY : classwork/dynamic.i
+
+# target to preprocess a source file
+classwork/dynamic.c.i:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/classwork/dynamic.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/dynamic.c.i
+.PHONY : classwork/dynamic.c.i
+
+classwork/dynamic.s: classwork/dynamic.c.s
+
+.PHONY : classwork/dynamic.s
+
+# target to generate assembly for a file
+classwork/dynamic.c.s:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/classwork/dynamic.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/dynamic.c.s
+.PHONY : classwork/dynamic.c.s
+
 classwork/exchange_value.o: classwork/exchange_value.c.o
 
 .PHONY : classwork/exchange_value.o
@@ -248,7 +395,6 @@ classwork/exchange_value.o: classwork/exchange_value.c.o
 # target to build an object file
 classwork/exchange_value.c.o:
 	$(MAKE) -f CMakeFiles/exchange_value.dir/build.make CMakeFiles/exchange_value.dir/classwork/exchange_value.c.o
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/exchange_value.c.o
 .PHONY : classwork/exchange_value.c.o
 
 classwork/exchange_value.i: classwork/exchange_value.c.i
@@ -258,7 +404,6 @@ classwork/exchange_value.i: classwork/exchange_value.c.i
 # target to preprocess a source file
 classwork/exchange_value.c.i:
 	$(MAKE) -f CMakeFiles/exchange_value.dir/build.make CMakeFiles/exchange_value.dir/classwork/exchange_value.c.i
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/exchange_value.c.i
 .PHONY : classwork/exchange_value.c.i
 
 classwork/exchange_value.s: classwork/exchange_value.c.s
@@ -268,8 +413,97 @@ classwork/exchange_value.s: classwork/exchange_value.c.s
 # target to generate assembly for a file
 classwork/exchange_value.c.s:
 	$(MAKE) -f CMakeFiles/exchange_value.dir/build.make CMakeFiles/exchange_value.dir/classwork/exchange_value.c.s
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/exchange_value.c.s
 .PHONY : classwork/exchange_value.c.s
+
+classwork/get_max.o: classwork/get_max.c.o
+
+.PHONY : classwork/get_max.o
+
+# target to build an object file
+classwork/get_max.c.o:
+	$(MAKE) -f CMakeFiles/get_max.dir/build.make CMakeFiles/get_max.dir/classwork/get_max.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/get_max.c.o
+.PHONY : classwork/get_max.c.o
+
+classwork/get_max.i: classwork/get_max.c.i
+
+.PHONY : classwork/get_max.i
+
+# target to preprocess a source file
+classwork/get_max.c.i:
+	$(MAKE) -f CMakeFiles/get_max.dir/build.make CMakeFiles/get_max.dir/classwork/get_max.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/get_max.c.i
+.PHONY : classwork/get_max.c.i
+
+classwork/get_max.s: classwork/get_max.c.s
+
+.PHONY : classwork/get_max.s
+
+# target to generate assembly for a file
+classwork/get_max.c.s:
+	$(MAKE) -f CMakeFiles/get_max.dir/build.make CMakeFiles/get_max.dir/classwork/get_max.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/get_max.c.s
+.PHONY : classwork/get_max.c.s
+
+classwork/get_number.o: classwork/get_number.c.o
+
+.PHONY : classwork/get_number.o
+
+# target to build an object file
+classwork/get_number.c.o:
+	$(MAKE) -f CMakeFiles/get_number.dir/build.make CMakeFiles/get_number.dir/classwork/get_number.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/get_number.c.o
+.PHONY : classwork/get_number.c.o
+
+classwork/get_number.i: classwork/get_number.c.i
+
+.PHONY : classwork/get_number.i
+
+# target to preprocess a source file
+classwork/get_number.c.i:
+	$(MAKE) -f CMakeFiles/get_number.dir/build.make CMakeFiles/get_number.dir/classwork/get_number.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/get_number.c.i
+.PHONY : classwork/get_number.c.i
+
+classwork/get_number.s: classwork/get_number.c.s
+
+.PHONY : classwork/get_number.s
+
+# target to generate assembly for a file
+classwork/get_number.c.s:
+	$(MAKE) -f CMakeFiles/get_number.dir/build.make CMakeFiles/get_number.dir/classwork/get_number.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/get_number.c.s
+.PHONY : classwork/get_number.c.s
+
+classwork/guess_number.o: classwork/guess_number.c.o
+
+.PHONY : classwork/guess_number.o
+
+# target to build an object file
+classwork/guess_number.c.o:
+	$(MAKE) -f CMakeFiles/guess_number.dir/build.make CMakeFiles/guess_number.dir/classwork/guess_number.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/guess_number.c.o
+.PHONY : classwork/guess_number.c.o
+
+classwork/guess_number.i: classwork/guess_number.c.i
+
+.PHONY : classwork/guess_number.i
+
+# target to preprocess a source file
+classwork/guess_number.c.i:
+	$(MAKE) -f CMakeFiles/guess_number.dir/build.make CMakeFiles/guess_number.dir/classwork/guess_number.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/guess_number.c.i
+.PHONY : classwork/guess_number.c.i
+
+classwork/guess_number.s: classwork/guess_number.c.s
+
+.PHONY : classwork/guess_number.s
+
+# target to generate assembly for a file
+classwork/guess_number.c.s:
+	$(MAKE) -f CMakeFiles/guess_number.dir/build.make CMakeFiles/guess_number.dir/classwork/guess_number.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/guess_number.c.s
+.PHONY : classwork/guess_number.c.s
 
 classwork/heightconvert.o: classwork/heightconvert.c.o
 
@@ -277,7 +511,6 @@ classwork/heightconvert.o: classwork/heightconvert.c.o
 
 # target to build an object file
 classwork/heightconvert.c.o:
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/heightconvert.c.o
 	$(MAKE) -f CMakeFiles/heightconvert.dir/build.make CMakeFiles/heightconvert.dir/classwork/heightconvert.c.o
 .PHONY : classwork/heightconvert.c.o
 
@@ -287,7 +520,6 @@ classwork/heightconvert.i: classwork/heightconvert.c.i
 
 # target to preprocess a source file
 classwork/heightconvert.c.i:
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/heightconvert.c.i
 	$(MAKE) -f CMakeFiles/heightconvert.dir/build.make CMakeFiles/heightconvert.dir/classwork/heightconvert.c.i
 .PHONY : classwork/heightconvert.c.i
 
@@ -297,7 +529,6 @@ classwork/heightconvert.s: classwork/heightconvert.c.s
 
 # target to generate assembly for a file
 classwork/heightconvert.c.s:
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/heightconvert.c.s
 	$(MAKE) -f CMakeFiles/heightconvert.dir/build.make CMakeFiles/heightconvert.dir/classwork/heightconvert.c.s
 .PHONY : classwork/heightconvert.c.s
 
@@ -328,6 +559,153 @@ classwork/plus.c.s:
 	$(MAKE) -f CMakeFiles/plus.dir/build.make CMakeFiles/plus.dir/classwork/plus.c.s
 .PHONY : classwork/plus.c.s
 
+classwork/reverse.o: classwork/reverse.c.o
+
+.PHONY : classwork/reverse.o
+
+# target to build an object file
+classwork/reverse.c.o:
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/classwork/reverse.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/reverse.c.o
+.PHONY : classwork/reverse.c.o
+
+classwork/reverse.i: classwork/reverse.c.i
+
+.PHONY : classwork/reverse.i
+
+# target to preprocess a source file
+classwork/reverse.c.i:
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/classwork/reverse.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/reverse.c.i
+.PHONY : classwork/reverse.c.i
+
+classwork/reverse.s: classwork/reverse.c.s
+
+.PHONY : classwork/reverse.s
+
+# target to generate assembly for a file
+classwork/reverse.c.s:
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/classwork/reverse.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/reverse.c.s
+.PHONY : classwork/reverse.c.s
+
+classwork/salary.o: classwork/salary.c.o
+
+.PHONY : classwork/salary.o
+
+# target to build an object file
+classwork/salary.c.o:
+	$(MAKE) -f CMakeFiles/salary.dir/build.make CMakeFiles/salary.dir/classwork/salary.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/salary.c.o
+.PHONY : classwork/salary.c.o
+
+classwork/salary.i: classwork/salary.c.i
+
+.PHONY : classwork/salary.i
+
+# target to preprocess a source file
+classwork/salary.c.i:
+	$(MAKE) -f CMakeFiles/salary.dir/build.make CMakeFiles/salary.dir/classwork/salary.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/salary.c.i
+.PHONY : classwork/salary.c.i
+
+classwork/salary.s: classwork/salary.c.s
+
+.PHONY : classwork/salary.s
+
+# target to generate assembly for a file
+classwork/salary.c.s:
+	$(MAKE) -f CMakeFiles/salary.dir/build.make CMakeFiles/salary.dir/classwork/salary.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/salary.c.s
+.PHONY : classwork/salary.c.s
+
+classwork/sum.o: classwork/sum.c.o
+
+.PHONY : classwork/sum.o
+
+# target to build an object file
+classwork/sum.c.o:
+	$(MAKE) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/classwork/sum.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/sum.c.o
+.PHONY : classwork/sum.c.o
+
+classwork/sum.i: classwork/sum.c.i
+
+.PHONY : classwork/sum.i
+
+# target to preprocess a source file
+classwork/sum.c.i:
+	$(MAKE) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/classwork/sum.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/sum.c.i
+.PHONY : classwork/sum.c.i
+
+classwork/sum.s: classwork/sum.c.s
+
+.PHONY : classwork/sum.s
+
+# target to generate assembly for a file
+classwork/sum.c.s:
+	$(MAKE) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/classwork/sum.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/sum.c.s
+.PHONY : classwork/sum.c.s
+
+classwork/switch.o: classwork/switch.c.o
+
+.PHONY : classwork/switch.o
+
+# target to build an object file
+classwork/switch.c.o:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/classwork/switch.c.o
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/switch.c.o
+.PHONY : classwork/switch.c.o
+
+classwork/switch.i: classwork/switch.c.i
+
+.PHONY : classwork/switch.i
+
+# target to preprocess a source file
+classwork/switch.c.i:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/classwork/switch.c.i
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/switch.c.i
+.PHONY : classwork/switch.c.i
+
+classwork/switch.s: classwork/switch.c.s
+
+.PHONY : classwork/switch.s
+
+# target to generate assembly for a file
+classwork/switch.c.s:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/classwork/switch.c.s
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/switch.c.s
+.PHONY : classwork/switch.c.s
+
+classwork/time_interval.o: classwork/time_interval.c.o
+
+.PHONY : classwork/time_interval.o
+
+# target to build an object file
+classwork/time_interval.c.o:
+	$(MAKE) -f CMakeFiles/time_interval.dir/build.make CMakeFiles/time_interval.dir/classwork/time_interval.c.o
+.PHONY : classwork/time_interval.c.o
+
+classwork/time_interval.i: classwork/time_interval.c.i
+
+.PHONY : classwork/time_interval.i
+
+# target to preprocess a source file
+classwork/time_interval.c.i:
+	$(MAKE) -f CMakeFiles/time_interval.dir/build.make CMakeFiles/time_interval.dir/classwork/time_interval.c.i
+.PHONY : classwork/time_interval.c.i
+
+classwork/time_interval.s: classwork/time_interval.c.s
+
+.PHONY : classwork/time_interval.s
+
+# target to generate assembly for a file
+classwork/time_interval.c.s:
+	$(MAKE) -f CMakeFiles/time_interval.dir/build.make CMakeFiles/time_interval.dir/classwork/time_interval.c.s
+.PHONY : classwork/time_interval.c.s
+
 classwork/timerange.o: classwork/timerange.c.o
 
 .PHONY : classwork/timerange.o
@@ -335,7 +713,6 @@ classwork/timerange.o: classwork/timerange.c.o
 # target to build an object file
 classwork/timerange.c.o:
 	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/classwork/timerange.c.o
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/timerange.c.o
 .PHONY : classwork/timerange.c.o
 
 classwork/timerange.i: classwork/timerange.c.i
@@ -345,7 +722,6 @@ classwork/timerange.i: classwork/timerange.c.i
 # target to preprocess a source file
 classwork/timerange.c.i:
 	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/classwork/timerange.c.i
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/timerange.c.i
 .PHONY : classwork/timerange.c.i
 
 classwork/timerange.s: classwork/timerange.c.s
@@ -355,7 +731,6 @@ classwork/timerange.s: classwork/timerange.c.s
 # target to generate assembly for a file
 classwork/timerange.c.s:
 	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/classwork/timerange.c.s
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/classwork/timerange.c.s
 .PHONY : classwork/timerange.c.s
 
 classwork/try.o: classwork/try.c.o
@@ -392,7 +767,6 @@ homework/reversevalue.o: homework/reversevalue.c.o
 # target to build an object file
 homework/reversevalue.c.o:
 	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/homework/reversevalue.c.o
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/homework/reversevalue.c.o
 .PHONY : homework/reversevalue.c.o
 
 homework/reversevalue.i: homework/reversevalue.c.i
@@ -402,7 +776,6 @@ homework/reversevalue.i: homework/reversevalue.c.i
 # target to preprocess a source file
 homework/reversevalue.c.i:
 	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/homework/reversevalue.c.i
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/homework/reversevalue.c.i
 .PHONY : homework/reversevalue.c.i
 
 homework/reversevalue.s: homework/reversevalue.c.s
@@ -412,7 +785,6 @@ homework/reversevalue.s: homework/reversevalue.c.s
 # target to generate assembly for a file
 homework/reversevalue.c.s:
 	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/homework/reversevalue.c.s
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/homework/reversevalue.c.s
 .PHONY : homework/reversevalue.c.s
 
 main.o: main.c.o
@@ -448,28 +820,64 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
+	@echo "... sum"
+	@echo "... get_number"
+	@echo "... reverse"
+	@echo "... switch"
+	@echo "... salary"
+	@echo "... get_max"
+	@echo "... time_interval"
 	@echo "... exchange_value"
-	@echo "... reversevalue"
-	@echo "... timerange"
-	@echo "... rebuild_cache"
-	@echo "... try"
-	@echo "... change"
 	@echo "... MOOC_C"
+	@echo "... try"
+	@echo "... reversevalue"
+	@echo "... edit_cache"
+	@echo "... dynamic"
+	@echo "... timerange"
+	@echo "... guess_number"
+	@echo "... change"
+	@echo "... rebuild_cache"
 	@echo "... heightconvert"
 	@echo "... plus"
 	@echo "... classwork/change.o"
 	@echo "... classwork/change.i"
 	@echo "... classwork/change.s"
+	@echo "... classwork/dynamic.o"
+	@echo "... classwork/dynamic.i"
+	@echo "... classwork/dynamic.s"
 	@echo "... classwork/exchange_value.o"
 	@echo "... classwork/exchange_value.i"
 	@echo "... classwork/exchange_value.s"
+	@echo "... classwork/get_max.o"
+	@echo "... classwork/get_max.i"
+	@echo "... classwork/get_max.s"
+	@echo "... classwork/get_number.o"
+	@echo "... classwork/get_number.i"
+	@echo "... classwork/get_number.s"
+	@echo "... classwork/guess_number.o"
+	@echo "... classwork/guess_number.i"
+	@echo "... classwork/guess_number.s"
 	@echo "... classwork/heightconvert.o"
 	@echo "... classwork/heightconvert.i"
 	@echo "... classwork/heightconvert.s"
 	@echo "... classwork/plus.o"
 	@echo "... classwork/plus.i"
 	@echo "... classwork/plus.s"
+	@echo "... classwork/reverse.o"
+	@echo "... classwork/reverse.i"
+	@echo "... classwork/reverse.s"
+	@echo "... classwork/salary.o"
+	@echo "... classwork/salary.i"
+	@echo "... classwork/salary.s"
+	@echo "... classwork/sum.o"
+	@echo "... classwork/sum.i"
+	@echo "... classwork/sum.s"
+	@echo "... classwork/switch.o"
+	@echo "... classwork/switch.i"
+	@echo "... classwork/switch.s"
+	@echo "... classwork/time_interval.o"
+	@echo "... classwork/time_interval.i"
+	@echo "... classwork/time_interval.s"
 	@echo "... classwork/timerange.o"
 	@echo "... classwork/timerange.i"
 	@echo "... classwork/timerange.s"

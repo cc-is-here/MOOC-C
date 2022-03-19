@@ -70,77 +70,137 @@ CMakeFiles/change.dir/classwork/change.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/change.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/change.c -o CMakeFiles/change.dir/classwork/change.c.s
 
-CMakeFiles/change.dir/classwork/heightconvert.c.o: CMakeFiles/change.dir/flags.make
-CMakeFiles/change.dir/classwork/heightconvert.c.o: ../classwork/heightconvert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/change.dir/classwork/heightconvert.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/heightconvert.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/heightconvert.c
+CMakeFiles/change.dir/classwork/get_max.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/get_max.c.o: ../classwork/get_max.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/change.dir/classwork/get_max.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/get_max.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_max.c
 
-CMakeFiles/change.dir/classwork/heightconvert.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/heightconvert.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/heightconvert.c > CMakeFiles/change.dir/classwork/heightconvert.c.i
+CMakeFiles/change.dir/classwork/get_max.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/get_max.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_max.c > CMakeFiles/change.dir/classwork/get_max.c.i
 
-CMakeFiles/change.dir/classwork/heightconvert.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/heightconvert.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/heightconvert.c -o CMakeFiles/change.dir/classwork/heightconvert.c.s
+CMakeFiles/change.dir/classwork/get_max.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/get_max.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_max.c -o CMakeFiles/change.dir/classwork/get_max.c.s
 
-CMakeFiles/change.dir/classwork/timerange.c.o: CMakeFiles/change.dir/flags.make
-CMakeFiles/change.dir/classwork/timerange.c.o: ../classwork/timerange.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/change.dir/classwork/timerange.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/timerange.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/timerange.c
+CMakeFiles/change.dir/classwork/salary.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/salary.c.o: ../classwork/salary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/change.dir/classwork/salary.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/salary.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/salary.c
 
-CMakeFiles/change.dir/classwork/timerange.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/timerange.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/timerange.c > CMakeFiles/change.dir/classwork/timerange.c.i
+CMakeFiles/change.dir/classwork/salary.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/salary.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/salary.c > CMakeFiles/change.dir/classwork/salary.c.i
 
-CMakeFiles/change.dir/classwork/timerange.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/timerange.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/timerange.c -o CMakeFiles/change.dir/classwork/timerange.c.s
+CMakeFiles/change.dir/classwork/salary.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/salary.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/salary.c -o CMakeFiles/change.dir/classwork/salary.c.s
 
-CMakeFiles/change.dir/classwork/exchange_value.c.o: CMakeFiles/change.dir/flags.make
-CMakeFiles/change.dir/classwork/exchange_value.c.o: ../classwork/exchange_value.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/change.dir/classwork/exchange_value.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/exchange_value.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/exchange_value.c
+CMakeFiles/change.dir/classwork/switch.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/switch.c.o: ../classwork/switch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/change.dir/classwork/switch.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/switch.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/switch.c
 
-CMakeFiles/change.dir/classwork/exchange_value.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/exchange_value.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/exchange_value.c > CMakeFiles/change.dir/classwork/exchange_value.c.i
+CMakeFiles/change.dir/classwork/switch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/switch.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/switch.c > CMakeFiles/change.dir/classwork/switch.c.i
 
-CMakeFiles/change.dir/classwork/exchange_value.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/exchange_value.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/exchange_value.c -o CMakeFiles/change.dir/classwork/exchange_value.c.s
+CMakeFiles/change.dir/classwork/switch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/switch.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/switch.c -o CMakeFiles/change.dir/classwork/switch.c.s
 
-CMakeFiles/change.dir/homework/reversevalue.c.o: CMakeFiles/change.dir/flags.make
-CMakeFiles/change.dir/homework/reversevalue.c.o: ../homework/reversevalue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/change.dir/homework/reversevalue.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/homework/reversevalue.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/homework/reversevalue.c
+CMakeFiles/change.dir/classwork/get_number.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/get_number.c.o: ../classwork/get_number.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/change.dir/classwork/get_number.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/get_number.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_number.c
 
-CMakeFiles/change.dir/homework/reversevalue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/homework/reversevalue.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/homework/reversevalue.c > CMakeFiles/change.dir/homework/reversevalue.c.i
+CMakeFiles/change.dir/classwork/get_number.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/get_number.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_number.c > CMakeFiles/change.dir/classwork/get_number.c.i
 
-CMakeFiles/change.dir/homework/reversevalue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/homework/reversevalue.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/homework/reversevalue.c -o CMakeFiles/change.dir/homework/reversevalue.c.s
+CMakeFiles/change.dir/classwork/get_number.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/get_number.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_number.c -o CMakeFiles/change.dir/classwork/get_number.c.s
+
+CMakeFiles/change.dir/classwork/guess_number.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/guess_number.c.o: ../classwork/guess_number.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/change.dir/classwork/guess_number.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/guess_number.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c
+
+CMakeFiles/change.dir/classwork/guess_number.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/guess_number.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c > CMakeFiles/change.dir/classwork/guess_number.c.i
+
+CMakeFiles/change.dir/classwork/guess_number.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/guess_number.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c -o CMakeFiles/change.dir/classwork/guess_number.c.s
+
+CMakeFiles/change.dir/classwork/sum.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/sum.c.o: ../classwork/sum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/change.dir/classwork/sum.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/sum.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/sum.c
+
+CMakeFiles/change.dir/classwork/sum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/sum.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/sum.c > CMakeFiles/change.dir/classwork/sum.c.i
+
+CMakeFiles/change.dir/classwork/sum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/sum.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/sum.c -o CMakeFiles/change.dir/classwork/sum.c.s
+
+CMakeFiles/change.dir/classwork/reverse.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/reverse.c.o: ../classwork/reverse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/change.dir/classwork/reverse.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/reverse.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/reverse.c
+
+CMakeFiles/change.dir/classwork/reverse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/reverse.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/reverse.c > CMakeFiles/change.dir/classwork/reverse.c.i
+
+CMakeFiles/change.dir/classwork/reverse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/reverse.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/reverse.c -o CMakeFiles/change.dir/classwork/reverse.c.s
+
+CMakeFiles/change.dir/classwork/dynamic.c.o: CMakeFiles/change.dir/flags.make
+CMakeFiles/change.dir/classwork/dynamic.c.o: ../classwork/dynamic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/change.dir/classwork/dynamic.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/change.dir/classwork/dynamic.c.o   -c /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/dynamic.c
+
+CMakeFiles/change.dir/classwork/dynamic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/change.dir/classwork/dynamic.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/dynamic.c > CMakeFiles/change.dir/classwork/dynamic.c.i
+
+CMakeFiles/change.dir/classwork/dynamic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/change.dir/classwork/dynamic.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/dynamic.c -o CMakeFiles/change.dir/classwork/dynamic.c.s
 
 # Object files for target change
 change_OBJECTS = \
 "CMakeFiles/change.dir/classwork/change.c.o" \
-"CMakeFiles/change.dir/classwork/heightconvert.c.o" \
-"CMakeFiles/change.dir/classwork/timerange.c.o" \
-"CMakeFiles/change.dir/classwork/exchange_value.c.o" \
-"CMakeFiles/change.dir/homework/reversevalue.c.o"
+"CMakeFiles/change.dir/classwork/get_max.c.o" \
+"CMakeFiles/change.dir/classwork/salary.c.o" \
+"CMakeFiles/change.dir/classwork/switch.c.o" \
+"CMakeFiles/change.dir/classwork/get_number.c.o" \
+"CMakeFiles/change.dir/classwork/guess_number.c.o" \
+"CMakeFiles/change.dir/classwork/sum.c.o" \
+"CMakeFiles/change.dir/classwork/reverse.c.o" \
+"CMakeFiles/change.dir/classwork/dynamic.c.o"
 
 # External object files for target change
 change_EXTERNAL_OBJECTS =
 
 change: CMakeFiles/change.dir/classwork/change.c.o
-change: CMakeFiles/change.dir/classwork/heightconvert.c.o
-change: CMakeFiles/change.dir/classwork/timerange.c.o
-change: CMakeFiles/change.dir/classwork/exchange_value.c.o
-change: CMakeFiles/change.dir/homework/reversevalue.c.o
+change: CMakeFiles/change.dir/classwork/get_max.c.o
+change: CMakeFiles/change.dir/classwork/salary.c.o
+change: CMakeFiles/change.dir/classwork/switch.c.o
+change: CMakeFiles/change.dir/classwork/get_number.c.o
+change: CMakeFiles/change.dir/classwork/guess_number.c.o
+change: CMakeFiles/change.dir/classwork/sum.c.o
+change: CMakeFiles/change.dir/classwork/reverse.c.o
+change: CMakeFiles/change.dir/classwork/dynamic.c.o
 change: CMakeFiles/change.dir/build.make
 change: CMakeFiles/change.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable change"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable change"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/change.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -4,10 +4,11 @@
 
 #include <stdio.h>
 
-int main(){
-    int a = 0;
-    int b = 0;
-    scanf("%d %d\n", &a, &b);
-    printf("%d %d \n", a, b);
+int main(int argc, char const *argv[]){
+    int ch;
+    while ((ch = getchar()) != EOF) {
+        putchar(ch);
+    }
+    printf("EOF\n");
     return 0;
 }

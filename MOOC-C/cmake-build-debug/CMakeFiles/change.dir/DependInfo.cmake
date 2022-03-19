@@ -5,10 +5,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/change.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/change.c.o"
-  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/exchange_value.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/exchange_value.c.o"
-  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/heightconvert.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/heightconvert.c.o"
-  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/timerange.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/timerange.c.o"
-  "/Users/amarihikohatsu/CLionProjects/MOOC-C/homework/reversevalue.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/homework/reversevalue.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/dynamic.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/dynamic.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_max.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/get_max.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_number.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/get_number.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/guess_number.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/reverse.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/reverse.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/salary.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/salary.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/sum.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/sum.c.o"
+  "/Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/switch.c" "/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles/change.dir/classwork/switch.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

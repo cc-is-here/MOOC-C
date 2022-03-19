@@ -53,12 +53,21 @@ CMAKE_BINARY_DIR = /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/sum.dir/all
+all: CMakeFiles/get_number.dir/all
+all: CMakeFiles/reverse.dir/all
+all: CMakeFiles/switch.dir/all
+all: CMakeFiles/salary.dir/all
+all: CMakeFiles/get_max.dir/all
+all: CMakeFiles/time_interval.dir/all
 all: CMakeFiles/exchange_value.dir/all
-all: CMakeFiles/reversevalue.dir/all
-all: CMakeFiles/timerange.dir/all
-all: CMakeFiles/try.dir/all
-all: CMakeFiles/change.dir/all
 all: CMakeFiles/MOOC_C.dir/all
+all: CMakeFiles/try.dir/all
+all: CMakeFiles/reversevalue.dir/all
+all: CMakeFiles/dynamic.dir/all
+all: CMakeFiles/timerange.dir/all
+all: CMakeFiles/guess_number.dir/all
+all: CMakeFiles/change.dir/all
 all: CMakeFiles/heightconvert.dir/all
 all: CMakeFiles/plus.dir/all
 
@@ -70,16 +79,214 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/sum.dir/clean
+clean: CMakeFiles/get_number.dir/clean
+clean: CMakeFiles/reverse.dir/clean
+clean: CMakeFiles/switch.dir/clean
+clean: CMakeFiles/salary.dir/clean
+clean: CMakeFiles/get_max.dir/clean
+clean: CMakeFiles/time_interval.dir/clean
 clean: CMakeFiles/exchange_value.dir/clean
-clean: CMakeFiles/reversevalue.dir/clean
-clean: CMakeFiles/timerange.dir/clean
-clean: CMakeFiles/try.dir/clean
-clean: CMakeFiles/change.dir/clean
 clean: CMakeFiles/MOOC_C.dir/clean
+clean: CMakeFiles/try.dir/clean
+clean: CMakeFiles/reversevalue.dir/clean
+clean: CMakeFiles/dynamic.dir/clean
+clean: CMakeFiles/timerange.dir/clean
+clean: CMakeFiles/guess_number.dir/clean
+clean: CMakeFiles/change.dir/clean
 clean: CMakeFiles/heightconvert.dir/clean
 clean: CMakeFiles/plus.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sum.dir
+
+# All Build rule for target.
+CMakeFiles/sum.dir/all:
+	$(MAKE) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/depend
+	$(MAKE) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target sum"
+.PHONY : CMakeFiles/sum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sum.dir/rule
+
+# Convenience name for target.
+sum: CMakeFiles/sum.dir/rule
+
+.PHONY : sum
+
+# clean rule for target.
+CMakeFiles/sum.dir/clean:
+	$(MAKE) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/clean
+.PHONY : CMakeFiles/sum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/get_number.dir
+
+# All Build rule for target.
+CMakeFiles/get_number.dir/all:
+	$(MAKE) -f CMakeFiles/get_number.dir/build.make CMakeFiles/get_number.dir/depend
+	$(MAKE) -f CMakeFiles/get_number.dir/build.make CMakeFiles/get_number.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target get_number"
+.PHONY : CMakeFiles/get_number.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/get_number.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/get_number.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/get_number.dir/rule
+
+# Convenience name for target.
+get_number: CMakeFiles/get_number.dir/rule
+
+.PHONY : get_number
+
+# clean rule for target.
+CMakeFiles/get_number.dir/clean:
+	$(MAKE) -f CMakeFiles/get_number.dir/build.make CMakeFiles/get_number.dir/clean
+.PHONY : CMakeFiles/get_number.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reverse.dir
+
+# All Build rule for target.
+CMakeFiles/reverse.dir/all:
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/depend
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target reverse"
+.PHONY : CMakeFiles/reverse.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reverse.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/reverse.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/reverse.dir/rule
+
+# Convenience name for target.
+reverse: CMakeFiles/reverse.dir/rule
+
+.PHONY : reverse
+
+# clean rule for target.
+CMakeFiles/reverse.dir/clean:
+	$(MAKE) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/clean
+.PHONY : CMakeFiles/reverse.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/switch.dir
+
+# All Build rule for target.
+CMakeFiles/switch.dir/all:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/depend
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target switch"
+.PHONY : CMakeFiles/switch.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/switch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/switch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/switch.dir/rule
+
+# Convenience name for target.
+switch: CMakeFiles/switch.dir/rule
+
+.PHONY : switch
+
+# clean rule for target.
+CMakeFiles/switch.dir/clean:
+	$(MAKE) -f CMakeFiles/switch.dir/build.make CMakeFiles/switch.dir/clean
+.PHONY : CMakeFiles/switch.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/salary.dir
+
+# All Build rule for target.
+CMakeFiles/salary.dir/all:
+	$(MAKE) -f CMakeFiles/salary.dir/build.make CMakeFiles/salary.dir/depend
+	$(MAKE) -f CMakeFiles/salary.dir/build.make CMakeFiles/salary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target salary"
+.PHONY : CMakeFiles/salary.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/salary.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/salary.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/salary.dir/rule
+
+# Convenience name for target.
+salary: CMakeFiles/salary.dir/rule
+
+.PHONY : salary
+
+# clean rule for target.
+CMakeFiles/salary.dir/clean:
+	$(MAKE) -f CMakeFiles/salary.dir/build.make CMakeFiles/salary.dir/clean
+.PHONY : CMakeFiles/salary.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/get_max.dir
+
+# All Build rule for target.
+CMakeFiles/get_max.dir/all:
+	$(MAKE) -f CMakeFiles/get_max.dir/build.make CMakeFiles/get_max.dir/depend
+	$(MAKE) -f CMakeFiles/get_max.dir/build.make CMakeFiles/get_max.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target get_max"
+.PHONY : CMakeFiles/get_max.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/get_max.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/get_max.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/get_max.dir/rule
+
+# Convenience name for target.
+get_max: CMakeFiles/get_max.dir/rule
+
+.PHONY : get_max
+
+# clean rule for target.
+CMakeFiles/get_max.dir/clean:
+	$(MAKE) -f CMakeFiles/get_max.dir/build.make CMakeFiles/get_max.dir/clean
+.PHONY : CMakeFiles/get_max.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/time_interval.dir
+
+# All Build rule for target.
+CMakeFiles/time_interval.dir/all:
+	$(MAKE) -f CMakeFiles/time_interval.dir/build.make CMakeFiles/time_interval.dir/depend
+	$(MAKE) -f CMakeFiles/time_interval.dir/build.make CMakeFiles/time_interval.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target time_interval"
+.PHONY : CMakeFiles/time_interval.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/time_interval.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/time_interval.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/time_interval.dir/rule
+
+# Convenience name for target.
+time_interval: CMakeFiles/time_interval.dir/rule
+
+.PHONY : time_interval
+
+# clean rule for target.
+CMakeFiles/time_interval.dir/clean:
+	$(MAKE) -f CMakeFiles/time_interval.dir/build.make CMakeFiles/time_interval.dir/clean
+.PHONY : CMakeFiles/time_interval.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/exchange_value.dir
@@ -88,7 +295,7 @@ clean: CMakeFiles/plus.dir/clean
 CMakeFiles/exchange_value.dir/all:
 	$(MAKE) -f CMakeFiles/exchange_value.dir/build.make CMakeFiles/exchange_value.dir/depend
 	$(MAKE) -f CMakeFiles/exchange_value.dir/build.make CMakeFiles/exchange_value.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target exchange_value"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target exchange_value"
 .PHONY : CMakeFiles/exchange_value.dir/all
 
 # Build rule for subdir invocation for target.
@@ -107,114 +314,6 @@ exchange_value: CMakeFiles/exchange_value.dir/rule
 CMakeFiles/exchange_value.dir/clean:
 	$(MAKE) -f CMakeFiles/exchange_value.dir/build.make CMakeFiles/exchange_value.dir/clean
 .PHONY : CMakeFiles/exchange_value.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/reversevalue.dir
-
-# All Build rule for target.
-CMakeFiles/reversevalue.dir/all:
-	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/depend
-	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target reversevalue"
-.PHONY : CMakeFiles/reversevalue.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/reversevalue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/reversevalue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/reversevalue.dir/rule
-
-# Convenience name for target.
-reversevalue: CMakeFiles/reversevalue.dir/rule
-
-.PHONY : reversevalue
-
-# clean rule for target.
-CMakeFiles/reversevalue.dir/clean:
-	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/clean
-.PHONY : CMakeFiles/reversevalue.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/timerange.dir
-
-# All Build rule for target.
-CMakeFiles/timerange.dir/all:
-	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/depend
-	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target timerange"
-.PHONY : CMakeFiles/timerange.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/timerange.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/timerange.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/timerange.dir/rule
-
-# Convenience name for target.
-timerange: CMakeFiles/timerange.dir/rule
-
-.PHONY : timerange
-
-# clean rule for target.
-CMakeFiles/timerange.dir/clean:
-	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/clean
-.PHONY : CMakeFiles/timerange.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/try.dir
-
-# All Build rule for target.
-CMakeFiles/try.dir/all:
-	$(MAKE) -f CMakeFiles/try.dir/build.make CMakeFiles/try.dir/depend
-	$(MAKE) -f CMakeFiles/try.dir/build.make CMakeFiles/try.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target try"
-.PHONY : CMakeFiles/try.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/try.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/try.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/try.dir/rule
-
-# Convenience name for target.
-try: CMakeFiles/try.dir/rule
-
-.PHONY : try
-
-# clean rule for target.
-CMakeFiles/try.dir/clean:
-	$(MAKE) -f CMakeFiles/try.dir/build.make CMakeFiles/try.dir/clean
-.PHONY : CMakeFiles/try.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/change.dir
-
-# All Build rule for target.
-CMakeFiles/change.dir/all:
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/depend
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target change"
-.PHONY : CMakeFiles/change.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/change.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/change.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/change.dir/rule
-
-# Convenience name for target.
-change: CMakeFiles/change.dir/rule
-
-.PHONY : change
-
-# clean rule for target.
-CMakeFiles/change.dir/clean:
-	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/clean
-.PHONY : CMakeFiles/change.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/MOOC_C.dir
@@ -244,13 +343,175 @@ CMakeFiles/MOOC_C.dir/clean:
 .PHONY : CMakeFiles/MOOC_C.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/try.dir
+
+# All Build rule for target.
+CMakeFiles/try.dir/all:
+	$(MAKE) -f CMakeFiles/try.dir/build.make CMakeFiles/try.dir/depend
+	$(MAKE) -f CMakeFiles/try.dir/build.make CMakeFiles/try.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target try"
+.PHONY : CMakeFiles/try.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/try.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/try.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/try.dir/rule
+
+# Convenience name for target.
+try: CMakeFiles/try.dir/rule
+
+.PHONY : try
+
+# clean rule for target.
+CMakeFiles/try.dir/clean:
+	$(MAKE) -f CMakeFiles/try.dir/build.make CMakeFiles/try.dir/clean
+.PHONY : CMakeFiles/try.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/reversevalue.dir
+
+# All Build rule for target.
+CMakeFiles/reversevalue.dir/all:
+	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/depend
+	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target reversevalue"
+.PHONY : CMakeFiles/reversevalue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/reversevalue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/reversevalue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/reversevalue.dir/rule
+
+# Convenience name for target.
+reversevalue: CMakeFiles/reversevalue.dir/rule
+
+.PHONY : reversevalue
+
+# clean rule for target.
+CMakeFiles/reversevalue.dir/clean:
+	$(MAKE) -f CMakeFiles/reversevalue.dir/build.make CMakeFiles/reversevalue.dir/clean
+.PHONY : CMakeFiles/reversevalue.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dynamic.dir
+
+# All Build rule for target.
+CMakeFiles/dynamic.dir/all:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/depend
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target dynamic"
+.PHONY : CMakeFiles/dynamic.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dynamic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dynamic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/dynamic.dir/rule
+
+# Convenience name for target.
+dynamic: CMakeFiles/dynamic.dir/rule
+
+.PHONY : dynamic
+
+# clean rule for target.
+CMakeFiles/dynamic.dir/clean:
+	$(MAKE) -f CMakeFiles/dynamic.dir/build.make CMakeFiles/dynamic.dir/clean
+.PHONY : CMakeFiles/dynamic.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/timerange.dir
+
+# All Build rule for target.
+CMakeFiles/timerange.dir/all:
+	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/depend
+	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target timerange"
+.PHONY : CMakeFiles/timerange.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/timerange.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/timerange.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/timerange.dir/rule
+
+# Convenience name for target.
+timerange: CMakeFiles/timerange.dir/rule
+
+.PHONY : timerange
+
+# clean rule for target.
+CMakeFiles/timerange.dir/clean:
+	$(MAKE) -f CMakeFiles/timerange.dir/build.make CMakeFiles/timerange.dir/clean
+.PHONY : CMakeFiles/timerange.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/guess_number.dir
+
+# All Build rule for target.
+CMakeFiles/guess_number.dir/all:
+	$(MAKE) -f CMakeFiles/guess_number.dir/build.make CMakeFiles/guess_number.dir/depend
+	$(MAKE) -f CMakeFiles/guess_number.dir/build.make CMakeFiles/guess_number.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target guess_number"
+.PHONY : CMakeFiles/guess_number.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/guess_number.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/guess_number.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/guess_number.dir/rule
+
+# Convenience name for target.
+guess_number: CMakeFiles/guess_number.dir/rule
+
+.PHONY : guess_number
+
+# clean rule for target.
+CMakeFiles/guess_number.dir/clean:
+	$(MAKE) -f CMakeFiles/guess_number.dir/build.make CMakeFiles/guess_number.dir/clean
+.PHONY : CMakeFiles/guess_number.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/change.dir
+
+# All Build rule for target.
+CMakeFiles/change.dir/all:
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/depend
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12 "Built target change"
+.PHONY : CMakeFiles/change.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/change.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 10
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/change.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/change.dir/rule
+
+# Convenience name for target.
+change: CMakeFiles/change.dir/rule
+
+.PHONY : change
+
+# clean rule for target.
+CMakeFiles/change.dir/clean:
+	$(MAKE) -f CMakeFiles/change.dir/build.make CMakeFiles/change.dir/clean
+.PHONY : CMakeFiles/change.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/heightconvert.dir
 
 # All Build rule for target.
 CMakeFiles/heightconvert.dir/all:
 	$(MAKE) -f CMakeFiles/heightconvert.dir/build.make CMakeFiles/heightconvert.dir/depend
 	$(MAKE) -f CMakeFiles/heightconvert.dir/build.make CMakeFiles/heightconvert.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target heightconvert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target heightconvert"
 .PHONY : CMakeFiles/heightconvert.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +538,7 @@ CMakeFiles/heightconvert.dir/clean:
 CMakeFiles/plus.dir/all:
 	$(MAKE) -f CMakeFiles/plus.dir/build.make CMakeFiles/plus.dir/depend
 	$(MAKE) -f CMakeFiles/plus.dir/build.make CMakeFiles/plus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target plus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/amarihikohatsu/CLionProjects/MOOC-C/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target plus"
 .PHONY : CMakeFiles/plus.dir/all
 
 # Build rule for subdir invocation for target.

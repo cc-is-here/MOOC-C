@@ -3,9 +3,17 @@
 
 CMakeFiles/change.dir/classwork/change.c.o
  /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/change.c
-CMakeFiles/change.dir/classwork/exchange_value.c.o
- /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/exchange_value.c
-CMakeFiles/change.dir/classwork/heightconvert.c.o
- /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/heightconvert.c
-CMakeFiles/change.dir/classwork/timerange.c.o
- /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/timerange.c
+CMakeFiles/change.dir/classwork/get_max.c.o
+ /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_max.c
+CMakeFiles/change.dir/classwork/get_number.c.o
+ /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/get_number.c
+CMakeFiles/change.dir/classwork/guess_number.c.o
+ /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/guess_number.c
+CMakeFiles/change.dir/classwork/reverse.c.o
+ /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/reverse.c
+CMakeFiles/change.dir/classwork/salary.c.o
+ /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/salary.c
+CMakeFiles/change.dir/classwork/sum.c.o
+ /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/sum.c
+CMakeFiles/change.dir/classwork/switch.c.o
+ /Users/amarihikohatsu/CLionProjects/MOOC-C/classwork/switch.c
